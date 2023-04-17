@@ -33,10 +33,6 @@ h1 {
     width: 100%;
 } */
 
-.material-icons {
-    color: #c4c4c4;
-}
-
 .right {
     display: flex;
 }
@@ -44,6 +40,7 @@ h1 {
 .wrapper {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
 }
  
 h6 {
@@ -178,7 +175,7 @@ footer {
     .wrapper {
         display: flex;
         flex-direction: row-reverse;
-        
+        max-width: 652px;
     }
 
     body{
@@ -219,7 +216,7 @@ footer {
         line-height: 12px;
     }
     
-    .material-icons {
+    i {
         font-size: 1rem;
     }
 
@@ -270,7 +267,7 @@ footer {
         margin: unset !important;
         width: 25px;
         height: 25px;
-        margin: 0 auto !important;
+        /* margin: 0 auto !important; */
         padding: 5px 10px 15px 10px!important;
     }
 
